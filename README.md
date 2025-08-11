@@ -2,7 +2,7 @@
 
 **A C++ source-to-source compiler tool that automatically parallelizes `for` loops using OpenMP to leverage the power of modern multi-core processors.**
 
-This project, developed as part of a study at Nile University, introduces a C++ tool designed to automatically inject OpenMP directives into sequential C++ code.  
+This group project, developed as part of a study at Nile University, introduces a C++ tool designed to automatically inject OpenMP directives into sequential C++ code.  
 Its goal is to simplify the process of parallel programming, making it accessible to developers without deep expertise in concurrency.
 
 ---
