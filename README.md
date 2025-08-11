@@ -51,7 +51,7 @@ sudo apt-get install g++
 ---
 
 ## Project Report
-You can read the full project report here: [View the Full Report](report/parallel project.pdf)
+You can read the full project report here: [View the Full Report](report/parallel_project_report.pdf)
 
 ---
 
