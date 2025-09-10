@@ -100,7 +100,7 @@ int main() {
                 if (assign_pos != string::npos &&
                     stripped.find(var) != string::npos &&
                     stripped.find(var) < assign_pos) {
-                    // It's a shared variable being assigned — insert atomic
+                    // It's a shared variable being assigned insert atomic
                     parallelized_lines.push_back("#pragma omp atomic\n");
                     break;
                 }
@@ -110,7 +110,7 @@ int main() {
         // Step 4: Append original line
         parallelized_lines.push_back(lines[i] + "\n");
 
-        // Step 5: Detect end of loop (naive but works for one-level)
+        // Step 5: Detect end of loop
         if (stripped.find('}') != string::npos && inside_loop) {
             inside_loop = false;
         }
